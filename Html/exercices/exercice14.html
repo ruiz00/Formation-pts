@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Commande de Pizza</title>
+</head>
+<body>
+    <form>
+        <fieldset>
+            <legend>Infos Personel</legend>
+            <label >Nom</label>
+            <input type="text" placeholder="Bryan"><br>
+            <label >Telephone</label>
+            <input type="tel" placeholder="+237657116168"><br>
+            <label >Adresse</label>
+            <input type="text" placeholder="Efoulan lac"><br>
+        </fieldset>
+        <fieldset>
+            <legend>Infos sur la commande</legend>
+            <label >Taille</label><br>
+            
+            <label>S</label>
+            <input type="radio" name="taille">
+            <label>M</label>
+            <input type="radio" name="taille">
+            <label>L</label>
+            <input type="radio" name="taille">
+            <label>XL</label>
+            <input type="radio" name="taille"><br>
+
+            <label>Pate</label>
+            <select name="pate">
+                <option>Fine</option>
+                <option>Epaisse</option>
+                <option>Sans Gluten</option>
+            </select><br>
+            <fieldset>
+                <label>Ingredients</label><br>
+                <label>Farine</label>
+                <input type="checkbox">
+                <label>Levure</label>
+                <input type="checkbox">
+                <label>Sel</label>
+                <input type="checkbox">
+                <label>Tomate</label>
+                <input type="checkbox">
+                <label>Anananas</label>
+                <input type="checkbox">
+                <label>Fromage</label>
+                <input type="checkbox">
+                <label>Olives Noiree</label>
+                <input type="checkbox">
+                <label>Jambom</label>
+                <input type="checkbox">
+            </fieldset><br>
+            <label>Quntite</label>
+            <input type="number" min="1" max="10"><br>
+            <fieldset>
+                <label>Boisson</label>
+                <select name="Boisson" multiple size="3">
+                <option value="fanta">Fanta</option>
+                <option value="redbull">Red bull</option>
+                <option value="coca">Coca</option>
+                <option value="spirit">Spirit</option>
+                <option value="Djino">Djino</option>
+            </select><br>
+            </fieldset>
+            <label>Instruction speciale</label>
+            <textarea name="instruction" cols="40" rows="5" placeholder="Description"></textarea><br>
+            <label>Mode de livraison</label><br>
+            <label>livraison</label>
+            <input type="radio" name="livre">
+            <label>Retraite</label>
+            <input type="radio" name="livre"><br>
+            <label>Heure Souhaitee</label>
+            <input type="time">
+
+        </fieldset>
+    </form>
+</body>
+</html>

@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulaire d'inscription</title>
+</head>
+<body>
+    <h1>Formulaire d'inscription</h1>
+    <form>
+        <fieldset>
+            <legend>Information personelles</legend>
+            <label for="Nom">Nom:</label>
+            <input type="text" name="nom" required placeholder="Nama"><br><br>
+
+            <label for="Prenom">Prenom:</label>
+            <input type="text" name="Prenom" required placeholder="Surname"><br><br>
+
+            <label for="email">Email:</label>
+            <input type="email" name="email" required placeholder="email@gmail.com"><br><br>
+
+            <label for="password">Mot de passe:</label>
+            <input type="password" name="password" required><br><br>
+
+            <label for="Naissance">Date de Naissance:</label>
+            <input type="date" name="Naissance" required><br><br>
+        </fieldset>
+        <br>
+
+        <fieldset>
+            <legend>Information Supplementaires</legend>
+            <p>Sexe :</p>
+            <input type="radio" name="sexe" id="homme" required>
+            <label for="homme">homme</label>
+
+            <input type="radio" name="sexe" id="femme" required>
+            <label for="femme">femme</label>
+
+            <br>
+            <label for="ville">Villes: </label>
+            <select name="ville" id="vilee" required>
+                <option value="">Choisir une ville</option>
+                <option>Yaounde</option>
+                <option>Douala</option>
+                <option>Bafoussam</option>
+                <option>Buea</option>
+                <option>Bamenda</option>
+            </select>
+            <br><br>
+            <label for="niveau">Niveau d'etudes :</label>
+            <select name="niveau" id="niveau" required>
+                <option value="">Choisir un niveau</option>
+                <option>Baccalaureat</option>
+                <option>Licence</option>
+                <option>Master</option>
+                <option>Doctorat</option>
+            </select>
+        </fieldset>
+        <br>
+        <fieldset>
+            <legend>Options</legend>
+            <input type="checkbox" id="newsletter" name="newsletter">
+            <label for="newsletter">Je souhaute recevoir la newsletter</label>
+            <br><br>
+            <input type="checkbox" name="conditions" id="conditions" required>
+            <label for="conditions">J'accepte les conditions d'utilisation</label>
+        </fieldset>
+        <br>
+        <input type="submit" value="Envoyer">
+        <input type="reset" value="Effacer">
+    </form>
+</body>
+</html>

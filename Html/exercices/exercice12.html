@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Soft hard Solutions - Entreprise Informatique</title>
+</head>
+<body>
+    <header>
+        <h1>SoftHard Solutions</h1>
+        <p>Votre paternaire en solution inofrmatique innovantes</p>
+        <nav>
+            <ul>
+                <li><a href="#Accueil">Accueil</a></li>
+                <li><a href="#Services">Services</a></li>
+                <li><a href="#propos">A propos</a></li>
+                <li><a href="#equipe">Equipe</a></li>
+                <li><a href="#Termoignages">Termoignages</a></li>
+                <li><a href="#offres">Nos Offres</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section id="Accueil">
+        <h2>Des solutions Informatique pour developper votre entreprise</h2>
+
+        <p>Nous aidons les entreprises a construire des solutins numerique modernes,
+            securisees et performantes.
+        </p>
+        <button><a href="#devis">Demander un Devis</a></button>
+    </section>
+
+    <section id="Services">
+        <h2>Nos Services</h2>
+        <div>
+            <h3>Developpement Web</h3>
+            <p>Creations des sites web modernes, rapides et securisees</p>
+        </div>
+        
+        <div>
+            <h3>Cybersecurite</h3>
+            <p>Protection des systemes et donnees contre les attaques</p>
+        </div>
+
+        <div>
+            <h3>Cloud Computing</h3>
+            <p>Migration et gestion d'infrastructure cloud</p>
+        </div>
+
+        <div>
+            <h3>Application Mobiles</h3>
+            <p>Developpement d'application android et iOS</p>
+        </div>
+    </section>
+
+    <sectio id="propos">
+        <h2>A propos de nous</h2>
+        <h3>Notre Histoire</h3>
+        <p>
+            SoftHard solutin a ete fondee pour accompagner les entreprises et particulier 
+            dans la tranformation  numerique grace aux technologie modernes
+        </p>
+        <h3>Notre Mission</h3>
+        <p>
+            Formis des solution technologique innovant pour ameliorer la 
+            productivite et la competivite des entreprises
+        </p>
+        <h3>Nos valeurs</h3>
+        <ul>
+            <li>Innovation</li>
+            <li>Professionnalisme</li>
+            <li>Satisfaction cleint</li>
+            <li>Qualite</li>
+        </ul>
+    </section>
+
+    <section id="equipe">
+        <h2>Notre Equipe</h2>
+        <figure>
+            <img src="./bryan.jpeg" alt="Foundateur de l'entreprise" width="200">
+            <figcaption>Bryan Nyagha - CEO</figcaption>
+        </figure>
+        <figure>
+            <img src="./homme1.webp" alt="Developpeur web senior" width="200">
+            <figcaption>Delphin Teck - Chef de l'equipe de Developpement</figcaption>
+        </figure>
+        <figure>
+            <img src="./homme3.webp" alt="Ingenieur Cybersecurite" width="200">
+            <figcaption>Evaris Kunsuna - Expert en cybersecurite</figcaption>
+        </figure>
+        <figure>
+            <img src="./homme2.webp" alt="Designer UI/UX" width="200">
+            <figcaption>Foyou Gills - UI/UX Designer</figcaption>
+        </figure>
+    </section>
+
+    <section id="Termoignages">
+        <h2>Termoignages Client</h2>
+        <div>
+            <p>Excellent service et equipe  tres Professionnelle - Jean Tchoumi</p>
+
+        </div>
+        <div>
+            <p>Notre site web a completement transforme notre business - Sophie Marie </p>
+        </div>
+
+        <div>
+            <p>Solutions rapid et efficaces - Paul Dupont</p>
+        </div>
+    </section>
+
+    <section id="offres">
+        <h2>Comparatif des Offres</h2>
+        <table border="1">
+            <tr>
+                <th>Fonctionnalites</th>
+                <th>Basic</th>
+                <th>Standard</th>
+                <th>Premium</th>
+            </tr>
+            <tr>
+                <td>Site Web</td>
+                <td>1 page</td>
+                <td>5 pages</td>
+                <td>10 pages</td>
+            </tr>
+            <tr>
+                <td>Support</td>
+                <td>Email</td>
+                <td>Email+ chat</td>
+                <td>Support Prioritaire</td>
+            </tr>
+            <tr>
+                <td>Maintenance</td>
+                <td>1 mois</td>
+                <td>6 mois</td>
+                <td>12 mois</td>
+            </tr>
+            <tr>
+                <td>Prix</td>
+                <td>50000 CFA</td>
+                <td>100000 CFA</td>
+                <td>200000 CFA</td>
+            </tr>
+        </table>
+    </section>
+    <section>
+        <h2>Demande de devis</h2>
+        <form id="devis">
+            <label>Nom   :</label>
+            <input placeholder="Bryan" type="text" name="Nom" id="nom" required>
+            <br>
+            <label>Prenom: </label>
+            <input type="text" name="prenom" id="prenom" required>
+            <br>
+            <label>Email: </label>
+            <input type="email" name="email" id="email" required>
+            <br>
+            <label>Telephone </label>
+            <input type="tel" name="Telephone" id="Telephone" required>
+            <br>
+            <label>Type de service</label>
+            <fieldset>
+                <legend>Selectionnez un service</legend>
+                <div>
+                    <input type="radio" id="Dev" name="service">
+                    <label for="dev">Developpement Web</label><br>
+                
+                
+                    <input type="radio" id="Cyber" name="service" >
+                    <label for="cyber">Cybersecurite</label><br>
+                
+                
+                    <input type="radio" id="cloud" name="service" >
+                    <label for="cloud">Cloud</label><br>
+                
+            
+                    <input type="radio" id="mobile" name="service">
+                    <label for="dev">Application mobile</label><br>
+                
+                
+                    <input type="radio" id="Dev" name="service">
+                    <label for="dev">Developpement Web</label><br>
+                </div>
+            </fieldset>
+           <!---- <select>
+                <option>Developpement Web</option>
+                <option>Cybersecurite</option>
+                <option>Cloud</option>
+                <option>Application mobile</option>
+                <input type="radio" >
+            </select> -->
+            <br>
+            <label>Budget :</label>
+            <input type="number">
+            <br>
+            <label>Delai souhaite :</label>
+            <input type="date">
+            <br>
+            <label> Description :</label>
+            <textarea placeholder="Description" cols="50" rows="4"> </textarea>
+            <br>
+            <label>Newsletter :</label>
+            <input type="checkbox">
+            <br>
+            <input type="submit" value="Soumettre">
+        </form>
+    </section>
+
+    <section>
+        <h2>Notre Localisation</h2>
+        <iframe width="400" height="200">
+            Notre bureau est situe a Yaounde, Cameroun.
+        </iframe>
+    </section>
+    <footer>
+        <h3>SoftHard Solutions</h3>
+        <p>Adresse: Yaounde, Cameroun</p>
+        <p>Telephone; +237 657116168</p>
+        <p>Email: gwanulagabryan@gmial.com</p>
+
+        <h4>Lien Rapides</h4>
+        <ul>
+            <li><a href="#Accueil">Accueil</a></li>
+            <li><a href="#Services">Services</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+        <h4 id="contact">Reseaux Sociaux</h4>
+        <ul>
+            <li><a href="">LinkedIn</a></li>
+            <li><a href="">X</a></li>
+            <li><a href="">Instagram</a></li>
+        </ul>
+        <p>@ 2026 SoftHard Solutions - Tous droits reserves</p>
+    </footer>
+</body>
+</html>
