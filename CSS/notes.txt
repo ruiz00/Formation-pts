@@ -1,0 +1,3 @@
+padding = marge interne 
+margin = marge externe
+border = la taille de la box
