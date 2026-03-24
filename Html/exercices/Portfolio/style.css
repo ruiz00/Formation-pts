@@ -81,7 +81,9 @@ li{
 }
 
 .hero img {
-    width: 300px;
+    display: flex;
+    justify-content: right;
+    width: 250px;
     border-radius: 50%;
     border: 3px solid #00ffcc;
     box-shadow: 0 0 25px #00ffcc55;
@@ -104,32 +106,10 @@ li{
     position: relative;
     overflow: hidden;
 }
-
-
-.expert-card::before {
-    content: "";
-    position: absolute;
-    inset: 0;
-    border-radius: 12px;
-    padding: 1px;
-    background: linear-gradient(120deg, transparent, #00ffcc, transparent);
-    -webkit-mask: 
-        linear-gradient(#000 0 0) content-box, 
-        linear-gradient(#000 0 0);
-    -webkit-mask-composite: xor;
-            mask-composite: exclude;
-    opacity: 0;
-    transition: 0.3s;
-}
-
-.expert-card:hover::before {
-    opacity: 1;
-}
-
-.expert-card:hover {
+ .expert-card:hover {
     transform: translateY(-6px);
     box-shadow: 0 0 20px #00ffcc33;
-}
+} 
 
 .expert-card h4 {
     color: #00ffcc;
